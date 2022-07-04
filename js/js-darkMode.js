@@ -23,25 +23,3 @@ $(document).ready(function () {
         document.getElementById("switch-mode-btn").innerHTML = "<i class='fa-solid fa-sun-bright'></i>"
     }
 });
-
-document.addEventListener("keydown", function (zEvent) {
-    let theme = localStorage.getItem("data-theme");
-    if (zEvent.shiftKey && zEvent.key === "T") {
-        const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
-        if (darkThemeMq.matches) {
-            if (theme === "dark") {
-            } else {
-                localStorage.setItem("data-theme", "dark");
-                document.documentElement.classList.toggle('dark-theme');
-                document.getElementById("switch-mode-btn").innerHTML = "<i class='fa-solid fa-moon'></i>"
-            }
-        } else if (!darkThemeMq.matches) {
-            if (theme === "light") {
-            } else {
-                localStorage.setItem("data-theme", "light");
-                document.documentElement.classList.remove('dark-theme');
-                document.getElementById("switch-mode-btn").innerHTML = "<i class='fa-solid fa-sun-bright'></i>"
-            }
-        }
-    }
-});

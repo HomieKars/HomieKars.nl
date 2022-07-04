@@ -8,7 +8,6 @@
     --secondary-text-color: rgba(75,85,99, 1);
     --primary-btn-color: #5f5fa7;
     --primary-box-shadow: 0 0 20px 4px rgb(17, 17, 18), 0 4px 80px -8px rgb(17, 17, 18), 0 4px 4px -2px rgb(17, 17, 18);
-    --spotify_section-background-color: rgb(17, 17, 18)
 }
   
 .dark-theme {
@@ -19,7 +18,6 @@
     --secondary-text-color: rgba(140,149,156, 1);
     --primary-btn-color: #aeaee5;
     --primary-box-shadow: 0 0 20px 4px rgb(17, 17, 18), 0 4px 80px -8px rgb(17, 17, 18), 0 4px 4px -2px rgb(17, 17, 18);
-    --spotify_section-background-color: rgb(17, 17, 18)
 }
 
 *,
@@ -34,7 +32,6 @@
 body {
     font-family: "Poppins";
     background-color: var(--background-color);
-    color: white;
     text-decoration: none;
     color: #111112;
     transition: all 0.3s linear;
@@ -99,7 +96,7 @@ a:hover {
     }
     .section {
         padding-top: 3%;
-        padding-bottom: 3% /*ff fixen */
+        padding-bottom: 3% 
         
     }
     .head-name {
@@ -114,7 +111,6 @@ a:hover {
         grid-template-columns: auto auto auto auto;
     }
     .modal-item {
-        /*border: 1px solid rgba(0, 0, 0, 0.8);*/
         text-align: left;
     }
 }
