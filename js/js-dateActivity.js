@@ -2,7 +2,7 @@ $(document).ready(function () {
     function day_message() {
         var ndate = new Date();
         var hours = ndate.getHours();
-        var message = hours < 12 ? 'Goedemorgen' : hours < 18 ? 'Goedemiddag' : 'Goedeavond';
+        var message = hours < 12 ? 'Goede morgen' : hours < 18 ? 'Goede middag' : 'Goede avond';
         $("#day-message").html(message);
     }
     function cat() { // 0 pazar, 1 pazartesi, 2 salı, 3 çarşamba, 4 perşembe, 5 cuma, 6 cumartesi
