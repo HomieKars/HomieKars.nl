@@ -4,22 +4,22 @@
     --background-color: #f0f0ff;
     --secondary-backround-color: #e1e1fd;
     --thirdy-background-color: #d1d1ff;
-    --primary-text-color: #181414;
+    --primary-text-color: #111112;
     --secondary-text-color: rgba(75,85,99, 1);
     --primary-btn-color: #5f5fa7;
-    --primary-box-shadow: 0 0 20px 4px rgba(154, 161, 177, .15), 0 4px 80px -8px rgba(36, 40, 47, .25), 0 4px 4px -2px rgba(91, 94, 105, .15);
-    --spotify_section-background-color: rgba(29, 185, 84, .85)
+    --primary-box-shadow: 0 0 20px 4px rgb(17, 17, 18), 0 4px 80px -8px rgb(17, 17, 18), 0 4px 4px -2px rgb(17, 17, 18);
+    --spotify_section-background-color: rgb(17, 17, 18)
 }
   
 .dark-theme {
-    --background-color: #181414;
-    --secondary-backround-color: #181414;
-    --thirdy-background-color: #181414;
+    --background-color: #111112;
+    --secondary-backround-color: #111112;
+    --thirdy-background-color: #111112;
     --primary-text-color: #fff;
     --secondary-text-color: rgba(140,149,156, 1);
     --primary-btn-color: #aeaee5;
-    --primary-box-shadow: 0 0 20px 4px rgba(45, 47, 52, .15), 0 4px 80px -8px rgba(45, 47, 52, .25), 0 4px 4px -2px rgba(45, 47, 52, .15);
-    --spotify_section-background-color: rgba(29, 185, 84, .85)
+    --primary-box-shadow: 0 0 20px 4px rgb(17, 17, 18), 0 4px 80px -8px rgb(17, 17, 18), 0 4px 4px -2px rgb(17, 17, 18);
+    --spotify_section-background-color: rgb(17, 17, 18)
 }
 
 *,
@@ -36,14 +36,14 @@ body {
     background-color: var(--background-color);
     color: white;
     text-decoration: none;
-    color: #181414;
+    color: #111112;
     transition: all 0.3s linear;
 }
 
 html {
     background-color: var(--background-color);
 	scroll-behavior: smooth;
-    color: #181414
+    color: #111112
 }
 
 img {
@@ -296,33 +296,33 @@ a:hover {
 .tippy-box[data-theme~=ws] {
 	color: white;
 	box-shadow: var(--primary-box-shadow);
-	background-color: #181414;
+	background-color: #111112;
     font-weight: 500;
 }
 
 .tippy-box[data-theme~=ws][data-placement^=top]>.tippy-arrow:before {
-	border-top-color: #181414
+	border-top-color: #111112
 }
 
 .tippy-box[data-theme~=ws][data-placement^=bottom]>.tippy-arrow:before {
-	border-bottom-color: #181414
+	border-bottom-color: #111112
 }
 
 .tippy-box[data-theme~=ws][data-placement^=left]>.tippy-arrow:before {
-	border-left-color: #181414
+	border-left-color: #111112
 }
 
 .tippy-box[data-theme~=ws][data-placement^=right]>.tippy-arrow:before {
-	border-right-color: #181414
+	border-right-color: #111112
 }
 
 .tippy-box[data-theme~=ws]>.tippy-backdrop {
-	background-color: #181414
+	background-color: #111112
 }
 
 .tippy-box[data-theme~=ws]>.tippy-svg-arrow {
-	background-color: #181414;
-	fill: #181414
+	background-color: #111112;
+	fill: #111112
 }
 
 #statusContent, #cat, #weather {
