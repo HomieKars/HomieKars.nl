@@ -5,7 +5,7 @@ $(document).ready(function () {
         var message = hours < 12 ? 'Goede morgen' : hours < 18 ? 'Goede middag' : 'Goede avond';
         $("#day-message").html(message);
     }
-    function cat() { // 0 pazar, 1 pazartesi, 2 salı, 3 çarşamba, 4 perşembe, 5 cuma, 6 cumartesi
+    function cat() { 
         var nndate = new Date(),
         domEnder = function() { var a = nndate; if (/1/.test(parseInt((a + "").charAt(0)))) return "th"; a = parseInt((a + "").charAt(1)); return 1 == a ? "st" : 2 == a ? "nd" : 3 == a ? "rd" : "th" }(),
         dayOfMonth = today + ( nndate.getDate() < 10) ? '0' + nndate.getDate() + domEnder : nndate.getDate() + domEnder,

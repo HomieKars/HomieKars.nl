@@ -1,9 +1,3 @@
-/*
-
- Open source repository on GitHub: https://github.com/mervebilgin/WeatherApp
-
-*/
-
 const url = 'https://api.openweathermap.org/data/2.5/'
 const key = '6e747a5c54ace82780a7e1d8f2a3dfdd'
 const cityName = 'Amsterdam'

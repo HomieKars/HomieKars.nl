@@ -1,16 +1,6 @@
 @import"https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap";
 
 :root {
-    --background-color: #f0f0ff;
-    --secondary-backround-color: #f0f0ff;
-    --thirdy-background-color: #f0f0ff;
-    --primary-text-color: #111112;
-    --secondary-text-color: rgba(75,85,99, 1);
-    --primary-btn-color: #f0f0ff;
-    --primary-box-shadow: 0 0 20px 4px rgb(17, 17, 18), 0 4px 80px -8px rgb(17, 17, 18), 0 4px 4px -2px rgb(17, 17, 18);
-}
-  
-.dark-theme {
     --background-color: #111112;
     --secondary-backround-color: #111112;
     --thirdy-background-color: #111112;
@@ -461,8 +451,6 @@ a:hover {
 .navbar-btns:hover {
     border: none;
     outline: none;
-    /*background-color: gray; SUPER SECRET -___________________-
-    border-bottom: 2px solid green;*/
 }
 
 .navbar-btns:focus {
