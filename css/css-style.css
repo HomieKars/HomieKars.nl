@@ -2,11 +2,11 @@
 
 :root {
     --background-color: #f0f0ff;
-    --secondary-backround-color: #e1e1fd;
-    --thirdy-background-color: #d1d1ff;
+    --secondary-backround-color: #f0f0ff;
+    --thirdy-background-color: #f0f0ff;
     --primary-text-color: #111112;
     --secondary-text-color: rgba(75,85,99, 1);
-    --primary-btn-color: #5f5fa7;
+    --primary-btn-color: #f0f0ff;
     --primary-box-shadow: 0 0 20px 4px rgb(17, 17, 18), 0 4px 80px -8px rgb(17, 17, 18), 0 4px 4px -2px rgb(17, 17, 18);
 }
   
@@ -16,7 +16,7 @@
     --thirdy-background-color: #111112;
     --primary-text-color: #fff;
     --secondary-text-color: rgba(140,149,156, 1);
-    --primary-btn-color: #aeaee5;
+    --primary-btn-color: #f0f0ff;
     --primary-box-shadow: 0 0 20px 4px rgb(17, 17, 18), 0 4px 80px -8px rgb(17, 17, 18), 0 4px 4px -2px rgb(17, 17, 18);
 }
 
